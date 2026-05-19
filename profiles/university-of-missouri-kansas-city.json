@@ -1,0 +1,32 @@
+{
+  "id": "university-of-missouri-kansas-city",
+  "name": "University of Missouri–Kansas City",
+  "illiadUrl": "https://umkc-illiad-oclc-org.proxy.library.umkc.edu/illiad/",
+  "articleForm": {
+    "requiredFields": [
+      "PhotoArticleTitle",
+      "PhotoJournalTitle",
+      "PhotoJournalYear",
+      "PhotoJournalInclusivePages"
+    ],
+    "optionalFields": [
+      "PhotoArticleAuthor",
+      "PhotoJournalVolume",
+      "PhotoJournalIssue",
+      "PhotoJournalMonth",
+      "ISSN",
+      "ESPNumber",
+      "PMID",
+      "DOI",
+      "ItemInfo5",
+      "Notes",
+      "CitedIn"
+    ],
+    "alwaysPopulate": [
+      "PhotoArticleAuthor",
+      "DOI",
+      "Notes",
+      "CitedIn"
+    ]
+  }
+}

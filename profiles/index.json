@@ -1,0 +1,6 @@
+{
+  "profiles": [
+    { "id": "pittsburg-state-university", "name": "Pittsburg State University (Axe Library)" },
+    { "id": "university-of-missouri-kansas-city", "name": "University of Missouri-Kansas City" }
+  ]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ILLiad Request</title>
+    <meta charset="utf-8">
+    <style>
+      body { font: 14px/1.6 monospace; white-space: pre-wrap; margin: 2em; background: #f9f9f9; }
+      button {
+        display: block; margin-bottom: 0.6em;
+        padding: 0.4em 1.2em; font-size: 14px; cursor: pointer;
+      }
+      #fill-illiad {
+        background: #1a5276; color: white;
+        border: none; border-radius: 3px;
+        padding: 0.5em 1.4em; font-size: 14px;
+      }
+      #fill-illiad:hover { background: #1f618d; }
+      #fill-illiad:disabled { background: #888; cursor: not-allowed; }
+      #status-msg {
+        font-family: sans-serif; font-size: 13px;
+        margin-bottom: 1em; color: #555;
+      }
+      #status-msg a {
+        color: #1a5276; text-decoration: none;
+      }
+      #status-msg a:hover {
+        text-decoration: underline;
+      }
+
+      /* Profile selector */
+      #profile-bar {
+        font-family: sans-serif;
+        font-size: 13px;
+        margin-bottom: 1.2em;
+        padding: 0.6em 0.8em;
+        background: #eaf0fb;
+        border: 1px solid #c5d3e8;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 0.6em;
+      }
+      #profile-bar label {
+        font-weight: bold;
+        color: #1a5276;
+        white-space: nowrap;
+      }
+      #profile-select {
+        font-size: 13px;
+        padding: 0.25em 0.4em;
+        border: 1px solid #aab;
+        border-radius: 3px;
+        flex: 1;
+      }
+      #profile-status {
+        font-size: 12px;
+        color: #27ae60;
+        white-space: nowrap;
+      }
+      #set-default {
+        font-size: 12px;
+        padding: 0.25em 0.7em;
+        background: white;
+        border: 1px solid #1a5276;
+        border-radius: 3px;
+        color: #1a5276;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      #set-default:hover { background: #d6e4f0; }
+      #set-default:disabled { border-color: #aaa; color: #aaa; cursor: not-allowed; }
+    </style>
+  </head>
+  <body>
+
+    <div id="profile-bar">
+      <label for="profile-select">Library:</label>
+      <select id="profile-select">
+        <option value="">— Loading profiles —</option>
+      </select>
+      <button id="set-default" disabled>Set as Default</button>
+      <span id="profile-status"></span>
+    </div>
+
+    <button id="fill-illiad">Copy to Open ILLiad Tab</button>
+    <button id="copy">Copy to clipboard</button>
+    <div id="status-msg"></div>
+    <pre id="citation">Loading...</pre>
+    <script src="output.js"></script>
+  </body>
+</html>

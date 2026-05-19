@@ -1,0 +1,32 @@
+{
+  "id": "pittsburg-state-university",
+  "name": "Pittsburg State University (Axe Library)",
+  "illiadUrl": "https://pittstate.illiad.oclc.org/illiad/",
+  "articleForm": {
+    "requiredFields": [
+      "PhotoJournalTitle",
+      "PhotoJournalYear",
+      "PhotoJournalInclusivePages",
+      "PhotoArticleTitle"
+    ],
+    "optionalFields": [
+      "PhotoJournalVolume",
+      "PhotoJournalIssue",
+      "PhotoJournalMonth",
+      "PhotoArticleAuthor",
+      "ISSN",
+      "ESPNumber",
+      "MaxCost",
+      "AcceptNonEnglish",
+      "Notes",
+      "CitedIn",
+      "CitedDate",
+      "CitedVolume",
+      "CitedPages"
+    ],
+    "alwaysPopulate": [
+      "Notes",
+      "CitedIn"
+    ]
+  }
+}
