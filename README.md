@@ -30,9 +30,15 @@ Adding support for additional institutions is straightforward - see [Adding a Ne
 
 This extension is not published on the Chrome Web Store. Install it manually as an unpacked extension.
 
+If you don't have Git installed, click the green **Code** button on the repository page and select **Download ZIP**, then extract the folder before loading it.
+
+### Download the Files
+
+If you have Git installed, clone this repository to your computer. If not, click the green **Code** button at the top of this page and select **Download ZIP**, then extract the folder contents before proceeding.
+
 ### Where to Save the Files
 
-Before installing, save the extension folder somewhere stable on your computer. Avoid Downloads or cloud-synced folders as moving or deleting the files will break the extension.
+Save the extension folder somewhere stable on your computer. Avoid saving it in Downloads or a cloud-synced folder (OneDrive, Dropbox, etc.) - if the files are moved or deleted Chrome will lose track of the extension.
 
 **Windows:**
 ```
