@@ -80,16 +80,16 @@ To copy citation data to your clipboard without filling an ILLiad form, click **
 
 ## Troubleshooting
 
-**"Fields filled!" message appears in ILLiad Request tab with no auto-switching to ILLiad New Request tab and nothing was filled**
+**"Fields filled!" message appears in ILLiad Request tab with no auto-switching to ILLiad New Request tab and nothing was filled**<br>
 Chrome sometimes keeps recently closed tabs cached in memory. If you closed your ILLiad New Request tab and reopened it, Chrome may still be detecting the old session. Fully close and restart Chrome, then log back into ILLiad and try again.
 
-**"No ILLiad tab found" error**
-Make sure you are logged into your institution's ILLiad and have navigated to New Request - Article before clicking "Copy to Open ILLiad Tab".
+**"No ILLiad tab found" error**<br>
+Make sure you are logged into your institution's ILLiad and have navigated to New Request -> Article before clicking "Copy to Open ILLiad Tab". 
 
-**Fields are filled but contain incorrect or incomplete data**
+**Fields are filled but contain incorrect or incomplete data**<br>
 Metadata quality varies by publisher. Always review all filled fields before submitting your request and correct anything that looks wrong manually in your ILLiad New Request tab.
 
-**Extension icon does nothing when clicked**
+**Extension icon does nothing when clicked**<br>
 Make sure you are on an http or https page. The extension cannot run on Chrome's internal pages such as chrome://extensions or a new tab page.
 
 ---
