@@ -28,7 +28,8 @@ Adding support for additional institutions is straightforward - see [Adding a Ne
 
 ## Installation
 
-This extension is not published on the Chrome Web Store. Install it manually as an unpacked extension.
+This extension is not published on the Chrome Web Store. Install it manually as an unpacked extension. See the [Installation Guide](installation-guide.pdf) for a step-by-step visual guide. 
+
 
 ### Download the Files
 
